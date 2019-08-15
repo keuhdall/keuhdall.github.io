@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 html {
   font-size: 62.5%;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 body {
@@ -8,7 +13,7 @@ body {
 }
 
 header {
-  border-bottom: 0.2rem solid #000;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav {
