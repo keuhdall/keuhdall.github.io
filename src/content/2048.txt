@@ -1,12 +1,10 @@
 Welcome to 2048!
 
-Use WASD or arrow keys to move tiles:
-  W/↑ - Move up
-  A/← - Move left  
-  S/↓ - Move down
-  D/→ - Move right
-
-Type 'quit' to exit the game.
+Controls:
+  WASD or arrow keys to move tiles
+  On mobile: Swipe in any direction to move
+  Q - Quit game
+  R - Restart game
 
 Goal: Combine tiles with the same number to reach 2048!
 

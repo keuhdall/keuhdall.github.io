@@ -12,6 +12,7 @@ export function Game2048({ onExit }: Game2048Props) {
   const [gameOver, setGameOver] = useState(false)
   const [won, setWon] = useState(false)
   const gameRef = useRef<HTMLDivElement>(null)
+  const touchStartRef = useRef<{ x: number; y: number } | null>(null)
 
   // Initialize the game board
   useEffect(() => {
@@ -313,6 +314,44 @@ export function Game2048({ onExit }: Game2048Props) {
     }
   }
 
+  // Touch event handlers for mobile swipe support
+  const handleTouchStart = (e: React.TouchEvent) => {
+    const touch = e.touches[0]
+    touchStartRef.current = { x: touch.clientX, y: touch.clientY }
+  }
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (!touchStartRef.current) return
+
+    const touch = e.changedTouches[0]
+    const deltaX = touch.clientX - touchStartRef.current.x
+    const deltaY = touch.clientY - touchStartRef.current.y
+    const minSwipeDistance = 50 // Minimum distance for a swipe
+
+    // Determine swipe direction based on the larger movement
+    if (Math.abs(deltaX) > Math.abs(deltaY)) {
+      // Horizontal swipe
+      if (Math.abs(deltaX) > minSwipeDistance) {
+        if (deltaX > 0) {
+          move('right')
+        } else {
+          move('left')
+        }
+      }
+    } else {
+      // Vertical swipe
+      if (Math.abs(deltaY) > minSwipeDistance) {
+        if (deltaY > 0) {
+          move('down')
+        } else {
+          move('up')
+        }
+      }
+    }
+
+    touchStartRef.current = null
+  }
+
   const getTileColor = (value: number) => {
     const colors: { [key: number]: string } = {
       0: '#000000',
@@ -341,13 +380,15 @@ export function Game2048({ onExit }: Game2048Props) {
       ref={gameRef}
       className="game-2048"
       onKeyDown={handleKeyPress}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
       tabIndex={0}
       style={{ outline: 'none' }}
     >
       <div className="game-header">
         <div>Score: {score}</div>
         <div>2048 Game</div>
-        <div>Press Q to quit, R to restart</div>
+        <div>WASD/Arrows or swipe to move • Q to quit • R to restart</div>
       </div>
       
       {won && !gameOver && (
