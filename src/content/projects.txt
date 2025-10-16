@@ -1,0 +1,31 @@
+Recent Projects:
+
+1. This website
+   • A modest portolio website
+   • Learnt about frontend development & 'vibe-coding'
+   • Technologies: React, Bun, Vite
+
+2. Paris Bot
+   • A discord bot that can send recomendation of cultural events based on your preferences
+   • Backend using Scala w/ Typelevel stack
+   • Relies on the Paris Opendata API for the cultural events data, and on ChatGPT for semantic categories processing
+   • Technologies: Scala, PostgreSQL, Paris Opendata API, OpenAI API, Discord API
+
+3. Climnbing app
+   • An app to register my finished climbing routes, add grades, comments, reviews, etc
+   • Backend using Scala w/ Typelevel stack + Smithy for the API
+   • Frontend using Typescript + React, still WIP
+   • Technologies: Scala, Typescript, Smithy, PostgreSQL, OAuth2
+
+4. Couch-surfing app for the 42 students
+   • An App using the 42 API to propose students to travel the world by couch surfing
+   • Backend using Scala w/ Typelevel stack + gRPC for microservice comunication
+   • Frontend WIP once again :D
+   • Technologies: Scala, PostgreSQL, Redis, OpenTelemetry, gRPC
+
+5. Darons.io
+   • Quiz website to test how much of a boomer you are - meant as a joke
+   • My first ever frontend project, SPA made using ReasonML + React
+   • Technologies: ReasonML, ReasonReact, Webpack
+
+I Also have a handful of abandonned projects, I'd be delighted to show you my graveyard :D

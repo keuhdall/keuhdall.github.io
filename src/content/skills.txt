@@ -1,0 +1,23 @@
+Technologies:
+  • Scala, Java, Node.js, Python, Go, Cpp, Haskell, OCaml
+  • Typelevel Stack, Spring Boot, Nest...
+  • RESTful APIs, GraphQL, WebSockets, Smithy, gRPC
+  • Kafka, Pulsar, RabbitMQ
+
+Databases:
+  • PostgreSQL, Redis, Clickhouse, DynamoDB, Aerospike, Elasticsearch
+  • Database design, optimization, and migration
+  • Storage: S3, Glacier, GCS, Databricks
+
+
+Cloud & DevOps:
+  • AWS, Google Cloud, Azure, Huawei Cloud
+  • Docker, Kubernetes, Helm
+  • Github actions, Gitlab pipelines, Jenkins, TeamCity
+  • OpenTelemetry, Prometheus, InfluxDB, Grafana, Datadog...
+
+Tools & Practices:
+  • Git, GitHub, GitLab
+  • Testing (Unit, Integration, E2E, Property-based)
+  • Agile methodologies, code reviews...
+  • Documentation, technical writing, workshops

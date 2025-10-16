@@ -1,0 +1,6 @@
+[install]
+# Use npm registry for compatibility
+registry = "https://registry.npmjs.org/"
+
+[install.scopes]
+# Keep existing scopes

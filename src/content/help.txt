@@ -1,0 +1,26 @@
+Available commands:
+  help          - Show this help message
+  about         - About me and my background
+  skills        - My technical skills and expertise
+  projects      - Showcase of my work
+  experience    - Professional experience
+  contact       - Get in touch with me
+  clear         - Clear the terminal (or press Ctrl+L)
+  whoami        - Display current user
+  date          - Show current date and time
+  ls            - List available files
+  cat           - Display file contents (try: cat resume.txt)
+  echo          - Echo back your input
+  welcome       - Show welcome message
+  2048          - Play 2048 game (TUI version)
+  exit          - Close the terminal (just refresh the page)
+
+Tips:
+  • Press TAB for command and file autocompletion
+  • Type partial commands and press TAB to complete them
+  • Use 'cat <filename>' to read files (TAB completes filenames)
+  • Use ↑↓ arrow keys to browse command history
+  • Press ↑ to go back to previous commands
+  • Press ↓ to go forward to newer commands
+  • Press Ctrl+L to clear the terminal quickly
+  • Type '2048' to play a fun game!
