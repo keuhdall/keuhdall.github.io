@@ -8,6 +8,7 @@ Available commands:
   clear         - Clear the terminal (or press Ctrl+L)
   whoami        - Display current user
   date          - Show current date and time
+  uptime        - Show system uptime since birth
   ls            - List available files
   cat           - Display file contents (try: cat resume.txt)
   echo          - Echo back your input

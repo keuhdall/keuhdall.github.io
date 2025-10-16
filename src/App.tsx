@@ -130,7 +130,7 @@ function App() {
   // Available commands and files for autocompletion
   const availableCommands = [
     'help', 'about', 'skills', 'projects', 'experience', 'contact',
-    'clear', 'whoami', 'date', 'ls', 'cat', 'echo', 'welcome', '2048'
+    'clear', 'whoami', 'date', 'uptime', 'ls', 'cat', 'echo', 'welcome', '2048'
   ]
   
   const availableFiles = [
@@ -221,6 +221,19 @@ function App() {
     contact: () => content.contact,
     whoami: () => 'keuhdall',
     date: () => new Date().toString(),
+    uptime: () => {
+      const birthDate = new Date('1994-11-15T00:00:00Z')
+      const now = new Date()
+      const diffMs = now.getTime() - birthDate.getTime()
+      
+      const years = Math.floor(diffMs / (1000 * 60 * 60 * 24 * 365.25))
+      const days = Math.floor((diffMs % (1000 * 60 * 60 * 24 * 365.25)) / (1000 * 60 * 60 * 24))
+      const hours = Math.floor((diffMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
+      const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60))
+      const seconds = Math.floor((diffMs % (1000 * 60)) / 1000)
+      
+      return `System uptime since birth (Nov 15, 1994 00:00):\n${years} years, ${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`
+    },
     ls: () => 'about.txt  skills.txt  projects.txt  experience.txt  contact.txt',
     cat: (args: string) => {
       if (args.includes('about.txt')) {
