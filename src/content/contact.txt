@@ -1,8 +1,8 @@
 Get in Touch:
 
-Email: keuhdall@gmail.com
-LinkedIn: https://www.linkedin.com/in/l%C3%A9onard-marques-693b55135/
-GitHub: https://github.com/keuhdall
+Email: <a href="mailto:keuhdall@gmail.com">keuhdall@gmail.com</a>
+LinkedIn: <a href="https://www.linkedin.com/in/l%C3%A9onard-marques-693b55135/">linkedin.com/in/léonard-marques</a>
+GitHub: <a href="https://github.com/keuhdall">github.com/keuhdall</a>
 
 I'm always interested in discussing new opportunities and challenging projects.
 Whether you need a quick consultation, a full project development, or ongoing 

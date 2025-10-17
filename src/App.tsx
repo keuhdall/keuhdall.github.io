@@ -71,6 +71,15 @@ function Terminal({ onCommand, history, currentInput, onInputChange, isTyping, o
     }
   }
 
+  // Function to parse content and convert <a/> tags to clickable links
+  const parseContent = (content: string): string => {
+    // Replace <a href="url">text</a> with proper HTML links
+    return content.replace(
+      /<a\s+href="([^"]+)"\s*>\s*([^<]+)\s*<\/a>/gi,
+      '<a href="$1" target="_blank" rel="noopener noreferrer" style="color: #00ff00; text-decoration: underline;">$2</a>'
+    )
+  }
+
   return (
     <div className="terminal" ref={terminalRef} onClick={handleTerminalClick}>
       <div className="terminal-body">
@@ -80,7 +89,7 @@ function Terminal({ onCommand, history, currentInput, onInputChange, isTyping, o
               <span className="prompt">keuhdall@home:~$</span>
               <span className="command">{cmd.input}</span>
             </div>
-            <div className="command-output" dangerouslySetInnerHTML={{ __html: cmd.output }} />
+            <div className="command-output" dangerouslySetInnerHTML={{ __html: parseContent(cmd.output) }} />
           </div>
         ))}
         <div className="current-line">

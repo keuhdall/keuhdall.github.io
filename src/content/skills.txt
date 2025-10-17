@@ -9,7 +9,6 @@ Databases:
   • Database design, optimization, and migration
   • Storage: S3, Glacier, GCS, Databricks
 
-
 Cloud & DevOps:
   • AWS, Google Cloud, Azure, Huawei Cloud
   • Docker, Kubernetes, Helm

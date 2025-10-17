@@ -104,6 +104,23 @@ body {
   font-style: normal;
 }
 
+/* Link styles for terminal */
+.command-output a {
+  color: #00ff00 !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.command-output a:hover {
+  color: #00cc00 !important;
+  text-decoration: underline !important;
+}
+
+.command-output a:visited {
+  color: #00aa00 !important;
+}
+
 /* Current Line Styles */
 .current-line {
   display: flex;

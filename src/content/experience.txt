@@ -2,9 +2,9 @@ Professional Experience:
 
 Senior Software Engineer @ Hawk (07/2023 - Present)
 • Worked on Hawk DSP (Demand-Side Platform) in the AdTech industry
-• Regained knowledge over an abandonned tech stack
+• Regained knowledge over an abandoned tech stack
 • Led initiatives to preserve the acquired knowledge (eg: use backstage to list and document microservices)
-• Rewrote several microservices from scratch, mainaly on the data part (contextual & behavioral segment ingestion)
+• Rewrote several microservices from scratch, mainly on the data part (contextual & behavioral segment ingestion)
 • Created new microservices from scratch (AI training based on post-auction feedback)
 • Implemented new features, fixed bugs
 Keywords: Scala, Microservices, Data, Knowledge, Architecture
@@ -25,7 +25,7 @@ Software Engineer @ Talend (08/2020 - 12/2021)
 Keywords: Scala, Postgres, Big Data, ETL, K8s
 
 Software Engineer Intern @ mediarithmics (09/2019 - 03/2020)
-• Worked on mediarithmics DMP (Data Marketting Platform) in the AdTech industry
+• Worked on mediarithmics DMP (Data Marketing Platform) in the AdTech industry
 • Wrote a docker orchestration microservice to run on-demand ML training
 • Implemented features, fixed bugs
 Keywords: Scala, Kafka, Pulsar, RabbitMQ, Databases
@@ -39,7 +39,7 @@ Software Engineer (Part-Time) @ Adobe (03/2018 - 03/2019)
 Keywords: Demos, Java, Metrics, Cloud-Native, Event-Driven, Kafka, Aerospike
 
 Software Engineer Intern @ Adobe (06/2017 - 12/2017)
-• Worked on the Voyager project (now Adobe Journey Optimizer) - The Experience Cloud product from Adobe to build real-time marketting campaigns
+• Worked on the Voyager project (now Adobe Journey Optimizer) - The Experience Cloud product from Adobe to build real-time marketing campaigns
 • Created end-to-end tests for the product's runtime
 • Design and implement PoCs to test the product and its limitations
 • Implemented features, fixed bugs
