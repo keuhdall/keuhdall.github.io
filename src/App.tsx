@@ -231,7 +231,7 @@ function App() {
     whoami: () => 'keuhdall',
     date: () => new Date().toString(),
     uptime: () => {
-      const birthDate = new Date('1994-11-15T00:00:00Z')
+      const birthDate = new Date('1994-11-15T00:20:45Z')
       const now = new Date()
       const diffMs = now.getTime() - birthDate.getTime()
       
@@ -241,7 +241,7 @@ function App() {
       const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60))
       const seconds = Math.floor((diffMs % (1000 * 60)) / 1000)
       
-      return `System uptime since birth (Nov 15, 1994 00:00):\n${years} years, ${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`
+      return `System uptime since birth (Nov 15, 1994 20:45):\n${years} years, ${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`
     },
     ls: () => 'about.txt  skills.txt  projects.txt  experience.txt  contact.txt',
     cat: (args: string) => {
