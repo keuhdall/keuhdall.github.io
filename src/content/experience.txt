@@ -2,8 +2,9 @@ Professional Experience:
 
 Senior Software Engineer @ Hawk (07/2023 - Present)
 • Worked on Hawk DSP (Demand-Side Platform) in the AdTech industry
-• Regained knowledge over an abandoned tech stack
-• Led initiatives to preserve the acquired knowledge (eg: use backstage to list and document microservices)
+• Regained knowledge over an abandoned tech stack (software archeology, etc)
+• Led initiatives to preserve the acquired knowledge (eg: use backstage to list and document microservices, wrote documentation & schemas)
+• Proposed new architecture for the whole data-related services (capping, retargeting, scoring segments, audience segments...) - allowed for a substantial performance gain & cost reduction
 • Rewrote several microservices from scratch, mainly on the data part (contextual & behavioral segment ingestion)
 • Created new microservices from scratch (AI training based on post-auction feedback)
 • Implemented new features, fixed bugs
