@@ -4,28 +4,42 @@ Recent Projects:
    • A modest portfolio website
    • Learnt about frontend development & 'vibe-coding'
    • Technologies: React, Bun, Vite
+   • <a href="https://github.com/keuhdall/keuhdall.github.io">Link here</a>
 
-2. Paris Bot
+2. Minitel
+   • A fun project that connects an old Minitel to the glorious internet
+   • Learnt about hardware, electronics, microcontroller chips, etc...
+   • Managed to display weather & public transport informations from OpenWeatherMap & IDFM APIs
+   • Technologies: Raspberry Pico, Python, Minitel
+   • <a href="https://github.com/keuhdall/minitel">Link here</a>
+   • <a href="https://www.youtube.com/watch?v=aUsJFpJNq2Y">Demo here</a>
+
+3. Paris Bot
    • A discord bot that can send recommendations of cultural events based on your preferences
    • Backend using Scala w/ Typelevel stack
    • Relies on the Paris Opendata API for the cultural events data, and on ChatGPT for semantic categories processing
    • Technologies: Scala, PostgreSQL, Paris Opendata API, OpenAI API, Discord API
+   • Private repo, available upon request
 
-3. Climbing app
+4. Climbing app
    • An app to register my finished climbing routes, add grades, comments, reviews, etc
    • Backend using Scala w/ Typelevel stack + Smithy for the API
    • Frontend using Typescript + React, still WIP
    • Technologies: Scala, Typescript, Smithy, PostgreSQL, OAuth2
+   • Private repo, available upon request
 
-4. Couch-surfing app for the 42 students
+5. Couch-surfing app for the 42 students
    • An App using the 42 API to propose students to travel the world by couch surfing
    • Backend using Scala w/ Typelevel stack + gRPC for microservice communication
    • Frontend WIP once again :D
    • Technologies: Scala, PostgreSQL, Redis, OpenTelemetry, gRPC
+   • Private repo, available upon request
 
-5. Darons.io
-   • Quiz website to test how much of a boomer you are - meant as a joke
+6. Darons.io
+   • Quiz website to test how much of a boomer ("daron", in french) you are - meant as a joke
    • My first ever frontend project, SPA made using ReasonML + React
+   • No longer online :(
    • Technologies: ReasonML, ReasonReact, Webpack
+   • <a href="https://github.com/keuhdall/darons.io">Link here</a>
 
 I also have a handful of abandoned projects, I'd be delighted to show you my graveyard :D

@@ -6,9 +6,9 @@ Senior Software Engineer @ Hawk (07/2023 - Present)
 • Led initiatives to preserve the acquired knowledge (eg: use backstage to list and document microservices, wrote documentation & schemas)
 • Proposed new architecture for the whole data-related services (capping, retargeting, scoring segments, audience segments...) - allowed for a substantial performance gain & cost reduction
 • Rewrote several microservices from scratch, mainly on the data part (contextual & behavioral segment ingestion)
-• Created new microservices from scratch (AI training based on post-auction feedback)
+• Created new microservices from scratch (AI training based on post-auction feedback, etc..)
 • Implemented new features, fixed bugs
-Keywords: Scala, Microservices, Data, Knowledge, Architecture
+Keywords: Scala, Go, Typescript, Microservices, Data, Knowledge, Architecture, AI
 
 Software Engineer @ Opensee (01/2022 - 07/2023)
 • Worked on a complex query engine for ClickHouse used for financial analytics
